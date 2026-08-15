@@ -1,0 +1,14 @@
+name: cli_task_manager
+description: A pure-Dart command-line task management application.
+version: 1.0.0
+publish_to: 'none'
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  path: ^1.9.0
+
+dev_dependencies:
+  test: ^1.25.2
+  lints: ^4.0.0

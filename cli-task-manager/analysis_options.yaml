@@ -1,0 +1,6 @@
+include: package:lints/recommended.yaml
+
+linter:
+  rules:
+    prefer_final_locals: true
+    avoid_print: false # this is a CLI app; stdout is the product
